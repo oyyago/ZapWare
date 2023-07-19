@@ -21,6 +21,16 @@ function chamar() {
     {frase:`OI ${novo_nome}`},
     {frase:`Ola ${novo_nome} Boa tarde?`},
     {frase:`Ola Boa tarde, ${novo_nome}. `},
+    {frase:`Ola. `},
+    {frase:`Oi. `},
+    {frase:`Ola Boa tarde. `},
+    {frase:`Oie . `},
+    {frase:`Boa tarde. `},
+
+
+
+
+
   ]
 
   const random = Math.floor(Math.random() * frases.length);
